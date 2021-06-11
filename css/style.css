@@ -524,11 +524,19 @@ body.light hr.separator {
   opacity: .8;
   text-transform: capitalize;
 }
-
+.name{
+  font-size: 19px;
+}
 .about .about-list .value {
   font-weight: 600;
 }
 
+@media(max-width:498px)
+{
+  .name{
+    font-size: 13px;
+  } 
+}
 /* Box Stats */
 
 .about .box-stats {
