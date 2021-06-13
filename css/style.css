@@ -596,7 +596,7 @@ body.light hr.separator {
 @media(max-width:498px){
   .edu-mid-1,.edu-mid-2{
     display: inline;
-    margin-left: 35%;
+    margin-left: 32%;
     padding-top: 40px;
     padding-bottom: 40px;
   }
