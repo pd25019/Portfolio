@@ -545,7 +545,6 @@ body.light hr.separator {
     display: none;
   }
 
-
 }
 /* Box Stats */
 
@@ -693,14 +692,24 @@ body.light hr.separator {
 }
 
 .skill-title{
-  font-size: 50px;
+  font-size: 3rem;
   color: white;
+  
 }
 .skill-title span{
   color: crimson;
 }
 .about .c100:after {
   background-color: #111;
+}
+
+@media(max-width:498px)
+{
+    .skill-title{
+      font-size: 1.75rem;
+      margin-left: 25%;
+    }
+  
 }
 
 /*** Portfolio ***/
